@@ -9,6 +9,7 @@ document.getElementById("randomChamp").onclick = function randomChamp() {
     <h2 class="z-button" style="text-align:centre;padding-left: 35%;padding-top: 18%;color:#25083b;font-size:3em;">Your random Champ is ${
       arr[Math.floor(Math.random() * Math.floor(arr.length))]
     }</h2>
+    <button onclick="window.location.reload()" style="text-align:centre;padding-left: 2em 2em;color:#25083b;font-size:1.8em;margin-left:47%">Go Back</button>
     </body>`
   );
 };
