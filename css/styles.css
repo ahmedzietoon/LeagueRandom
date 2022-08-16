@@ -5,14 +5,23 @@ body {
   background-repeat: no-repeat;
   width: clamp(60em, 20vw, 200em);
   grid-area: auto;
+  align-items: center;
 }
 .container {
   width: 1560px;
 }
+h2 {color: #fff;text-align: center;
+background-color: rgb(72, 10, 106);border: 2px solid wheat;
+padding:30px 40px !important;
+width: max-content;align-self: center;
+justify-self: center;margin-left: 240px;
+}
+span{font-size: 1.6em;}
 /* s zoza button*/
 .z-button {
-  margin: 15% auto;
+  margin: 22% auto;
   margin-left: 36%;
+  margin-bottom: 2%;
   align-content: center;
   position: relative;
   font-size: clamp(9px, 1.6vw, 450px);
